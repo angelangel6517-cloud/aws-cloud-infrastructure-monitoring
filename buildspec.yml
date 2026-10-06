@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "AWS Cloud Infrastructure Monitoring CI/CD Build"
+      - echo "Build completed successfully"
