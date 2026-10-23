@@ -14,7 +14,6 @@ EC2 Instance → CloudWatch Agent → CloudWatch Metrics → CloudWatch Alarm �
 
 GitHub → AWS CodePipeline → AWS CodeBuild
 
-Terraform is used to explore and manage infrastructure configuration.
 
 ## AWS Services and Tools Used
 
@@ -30,7 +29,6 @@ Terraform is used to explore and manage infrastructure configuration.
 - **GitHub:** Stores project files and build configuration.
 - **AWS CodeBuild:** Runs the automated build process.
 - **AWS CodePipeline:** Automates the source and build workflow.
-- **Terraform:** Defines infrastructure configuration using code.
 
 ## Monitoring and Alerting
 
@@ -45,9 +43,6 @@ The pipeline retrieves source code from GitHub and triggers an AWS CodeBuild pro
 
 **Note:** The current pipeline demonstrates source integration and automated builds; it does not yet deploy an application to EC2.
 
-## Terraform
-
-Terraform configuration files are stored in the `terraform/` directory. They include provider configuration, variables, and a read-only lookup of the existing VPC.
 
 ## Key Learning Outcomes
 
